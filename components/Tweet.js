@@ -1,5 +1,5 @@
 import { db } from "@/firebase";
-import { openCommentModal, openLoginModal, openSignupModal, setCommentTweet } from "@/redux/modalSlice";
+import { openCommentModal, openLoginModal, openSignupModal, setCommentTweet } from "@/redux/ModalSlice";
 import {
   ChartBarIcon,
   ChatIcon,
