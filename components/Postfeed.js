@@ -3,6 +3,7 @@ import Tweet from "./Tweet";
 import TweetInput from "./Tweetinput";
 import { collection, onSnapshot, orderBy, query } from "firebase/firestore";
 import { db } from "@/firebase";
+import Link from "next/link";
 
 export default function PostFeed() {
 
@@ -29,7 +30,6 @@ export default function PostFeed() {
           <Tweet key={tweet.id} id={tweet.id} data={tweet.data()}/>
         )
       })}
-      <Tweet />
     </div>
   );
 }
