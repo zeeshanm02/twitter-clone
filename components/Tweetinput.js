@@ -1,5 +1,5 @@
 import { db, storage } from "@/firebase";
-import { openLoginModal } from "@/redux/modalSlice";
+import { openLoginModal } from "@/redux/ModalSlice";
 import {
   CalendarIcon,
   ChartBarIcon,
