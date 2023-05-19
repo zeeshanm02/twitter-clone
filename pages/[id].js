@@ -81,7 +81,7 @@ export default function CommentsPage({ tweetData }) {
                 {tweetData.image && (
                   <img
                     className="object-cover border border-gray-700 rounded-md mt-3 max-h-80"
-                    src={tweetData.image}
+                    src={tweetData.image} 
                   />
                 )}
               </div>

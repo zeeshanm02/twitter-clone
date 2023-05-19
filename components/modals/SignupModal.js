@@ -31,7 +31,7 @@ export default function SignupModal() {
 
     await updateProfile(auth.currentUser, {
       displayName: name,
-      photoURL:`./assets/profilePictures/pfp${Math.ceil(Math.random() * 6)}.png`
+      photoURL:`./assets/profilePictures/pfp${Math.ceil(Math.random() * 14)}.png`
     })
 
     router.reload()
